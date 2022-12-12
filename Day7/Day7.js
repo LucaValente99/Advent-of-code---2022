@@ -67,7 +67,7 @@ fs.promises.readFile("DirectoriesTree.txt", "utf-8")
         }
         
         console.log("PART_2:", "spaceAvailable: ", spaceAvailable, "---", "dirSize: ", possibleDir.sort((a, b) => a-b)[0]);
-        console.log("Possible choises:", possibleDir);
+        console.log("Possible choices:", possibleDir);
     })  
     .catch((err) => {
         console.log(err);
