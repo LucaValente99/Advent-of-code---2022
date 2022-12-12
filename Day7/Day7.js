@@ -4,9 +4,6 @@ const pathList = {};
 const path = [];
 let currentDir;
 
-
-
-
 fs.promises.readFile("DirectoriesTree.txt", "utf-8")
     .then((content) =>{
         const commands = content.split("\n").map(x => x.replace("/\r?\n|\r/", ""));  
